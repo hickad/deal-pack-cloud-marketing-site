@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 
+
+enum Constants {
+  GET_STARTED_TODAY = 'GET_STARTED_TODAY';
+}
+
+
 @Component({
   selector: 'abc-root',
   templateUrl: './app.component.html',
